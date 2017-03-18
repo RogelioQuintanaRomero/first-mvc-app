@@ -33,7 +33,10 @@ namespace MvcMovie.Controllers
         }
         public IActionResult Categories()
         {
+            ViewData["Message"] = "Your Categories page.";
+
             return View();
         }
+   
     }
 }
